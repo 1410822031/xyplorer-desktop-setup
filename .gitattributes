@@ -1,0 +1,12 @@
+# Normalize line endings
+# Language detection rules
+# Do not edit manually
+docs/index.html linguist-vendored
+
+docs/* linguist-vendored
+*.tsx linguist-detectable
+*.png binary
+Cargo.lock linguist-generated
+*.min.css linguist-generated
+
+# eof d792ebed
